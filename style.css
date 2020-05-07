@@ -1,0 +1,341 @@
+
+
+body{
+    line-height: 1.6;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div {
+    display: block;
+}
+
+@media only screen and (max-width: 600px) {
+    .mainDiv {
+        width: 400px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .mainDiv {
+        width: 200px;
+    }
+}
+@media only screen and (max-width: 200px) {
+    .mainDiv {
+        width: 100px;
+    }
+}
+@media only screen and (max-width: 100px) {
+    .mainDiv {
+        width: 50px;
+    }
+}
+
+.headerDiv {
+    background-color: #316DC3;
+    padding: 10px;
+    margin: -15px;
+    /*width: 100%;*/
+}
+.socialLink {
+    /*width: 25px;*/
+    display: inline-block;
+    padding: 0 20px;
+    margin: 0 80px;
+}
+
+.Paragraph {
+    /*width: 50px;*/
+    display: inline-block;
+    color: white;
+    padding: 0 10px;
+    margin: 0 80px;
+}
+
+.buttonsHeader {
+    /*width: 50px;*/
+    display: inline-block;
+    padding: 5px;
+    margin: 15px;
+}
+.row {
+    margin: 0 -15px;
+}
+
+ul,ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+ul#horizontalList li {
+    display: inline;
+    padding: 0 10px;
+    margin: 0;
+}
+
+button {
+    padding: 5px 5px;
+}
+.headerDiv1{
+    background-color: whitesmoke;
+    padding: 0px 20px;
+    /*padding-top: 10px;*/
+    margin: 0 -15px;
+    /*width: 100%;*/
+}
+.logo {
+    display: inline-block;
+    margin: 0 90px;
+}
+
+.logoWidth{
+    width: 200px;
+}
+.lists {
+    display: inline-block;
+    float: right;
+    padding-top: 20px;
+    margin-right: 85px;
+}
+
+/*.lists:hover {
+    background-color: #316DC3;
+}*/
+
+/*#horizontalList:hover {
+    background-color: #316DC3;
+}*/
+
+select {
+    /*-webkit-appearance: none;*/
+    -moz-appearance : none;
+    border: none;
+    background-color: whitesmoke;
+    padding:5px;
+}
+
+/*ABOUT*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    border-radius: 5px;
+    position: absolute;
+    z-index: 99;
+}
+
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #316DC3;
+    color: white;
+    margin-left: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.lists ul li:hover .dropdown-content {
+    display: inline;
+}
+
+.liHover:hover {
+    background-color: #316DC3; 
+    color: white; 
+    border-radius: 30px; 
+    padding: 40px 52px;
+}
+/*Slider*/
+
+/*.slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 0px;
+            text-align: center;
+            overflow: hidden;
+        }
+       
+        .image-holder
+        {
+            width: 2400px;
+            background-color: red;
+            height: 400px;
+            clear: both;
+            position: relative;
+            -webkit-transition: left 3s;
+            -moz-transition: left 3s;
+            -o-transition: left 3s;
+            transition: left 3s;
+        }
+       
+        .slider-image
+        {
+            float: left;
+            margin: 0px;
+            padding: 0px;
+            position: relative;
+            width: 800px;
+            height: 400px;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: 0px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+       
+        .button-holder
+        {
+            position: relative;
+            top: -50px;
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 20px;
+            width: 20px;
+            border-radius: 50px;
+            border-color: darkviolet;
+            border: 1px solid;
+            background-color: lightskyblue;
+        }*/
+
+.headline{
+    color: white;
+    background-color: #316DC3;
+    display: inline-block;
+    vertical-align: center;
+    margin-left: 7%;
+    border-radius: 3px;
+    padding: 5px;
+    margin-top: 1%;
+}
+.green {
+    color: #427900;
+}
+.intro {
+    text-align: center;
+    color: #316DC3;
+}
+.middleImage{
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+.B {
+    background-color: whitesmoke;
+    text-align: center;
+}
+.C{
+    margin-left: 350px;
+    text-align: left;
+}
+.blue {
+    background-color: #316DC3;
+    color: white;
+}
+.A1 {
+    display: inline-block;
+    padding: 50px;
+    margin-left: 80px;
+    text-align: center;
+}
+.A1:hover {
+    padding: 60px;
+}
+.A2 {
+    position: relative;
+    display: inline-block;
+    min-height: 1px;
+    margin: 10PX;
+    padding: 15px;
+    text-align: center;
+    background-color: white;
+    /*height: 300px;*/
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.mission {
+    background-color: white;
+    color: #316DC3;
+    margin-left: 260px;
+}
+.A22 {
+    position: relative;
+    display: inline-block;
+    min-height: 1px;
+    margin: 10PX;
+    /*margin-left: 10px;*/
+    padding: 30px;
+    text-align: center;
+    background-color: whitesmoke;
+    /*height: 300px;*/
+    width: 25%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+.A3 {
+    background-color: whitesmoke;
+}
+.A4 {
+    margin-left: 250px;
+}
+.A5{
+    background-color: white;
+}
+.A6 {
+    margin-left: 300px;
+}
+.imageHover:hover {
+        -moz-box-shadow: 0 0 10px grey;
+      -webkit-box-shadow: 0 0 10px grey;
+      box-shadow: 0 0 10px grey;
+
+}
+.A7 {
+    background-color: black;
+    color: lightgrey;
+    padding: 50px;
+    letter-spacing: 0.2;
+    font-size: 13px;
+}
+.A8 {
+    display: inline-block;
+}
+.A9 {
+    display: inline-block;
+    float: right;
+    margin-top: 60px;
+    margin-right: 300px;
+    text-align: center;
+}
+.A10 {
+    background-color: #316DC3;
+    color: white;
+    padding: 3px;
+}
+.copyright{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 11px;
+}
